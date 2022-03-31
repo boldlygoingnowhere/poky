@@ -9,7 +9,7 @@ SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git"
 
 S = "${WORKDIR}/git"
 
-DEPENDS = "util-linux-libuuid"
+DEPENDS = "util-linux"
 
 inherit pkgconfig autotools
 
